@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Maps SObjects and Objects to the Apex Domain class implementing fflib_SObjectDomain</description>
+    <label>Domain Mapping</label>
+    <pluralLabel>Domain Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

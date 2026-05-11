@@ -1,0 +1,9 @@
+{
+	"When Return": {
+		"scope": "apex",
+		"prefix": "whenreturn",
+		"body": [
+			"mocks.when($1).thenReturn($2);$0"
+		]
+	}
+}

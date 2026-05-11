@@ -1,0 +1,24 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "path": "modules/fflib",
+      "default": false
+    },
+    {
+      "path": "modules/fflibe",
+      "default": false
+    },
+    {
+      "path": "modules/lgr",
+      "default": false
+    }
+  ],
+  "name": "Salesforce",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "66.0"
+}

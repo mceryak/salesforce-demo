@@ -1,0 +1,10 @@
+
+{
+    "Unit of Work": {
+        "scope": "apex",
+        "prefix": "uow",
+        "body": [
+            "fflib_SObjectUnitOfWork uow = (fflib_SObjectUnitOfWork)fflibe_APP.UOW.newInstance(new SObjectType[] { $1 });$0"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"When Throw": {
+		"scope": "apex",
+		"prefix": "whenthrow",
+		"body": [
+			"mocks.when($1).thenThrow($2);$0"
+		]
+	}
+}

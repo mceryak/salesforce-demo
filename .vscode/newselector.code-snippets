@@ -1,0 +1,29 @@
+{
+	"New Selector": {
+		"scope": "apex",
+		"prefix": "newselector",
+		"body" : [
+			"public inherited sharing class ${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/} extends fflib_SObjectSelector {",
+			"",
+			"\tpublic static final ${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/} INSTANCE = (${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/})fflibe_APP.SELECTOR.newInstance(${2:sobject}.getSObjectType());",
+			"",
+			"\tpublic ${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/}() {",
+			"\t\tsuper(false, false, false, false);",
+			"\t}",
+			"",
+			"\tpublic List<Schema.SObjectField> getSObjectFieldList() {",
+			"\t\treturn new Schema.SObjectField[] {",
+			"\t\t\t${2:sobject}.Id",
+			"\t\t};",
+			"\t}",
+			"",
+			"\tpublic Schema.SObjectType getSObjectType() {",
+			"\t\treturn ${2:sobject}.getSObjectType();",
+			"\t}",
+			"",
+			"\t$0",
+			"",
+			"}"
+		]
+	}
+}

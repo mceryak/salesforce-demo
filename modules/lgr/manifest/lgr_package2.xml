@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>lgr_LogDeletionJob</members>
+		<members>lgr_LogDeletionJobScheduler</members>
+		<members>lgr_LogDeletionJobTest</members>
+		<members>lgr_Logger</members>
+		<members>lgr_LoggerTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>lgr_LogEvent__e</members>
+		<members>lgr_Log__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>lgr_LogEvent_AfterInsert_Map_to_lgr_Log_c</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>lgr_Log__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>lgr_Log_Record_Page</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>lgr_Log__c-Custom Log Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>lgr_LogViewer</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>lgr_LogSettings__c</members>
+		<name>CustomObject</name>
+	</types>
+	<version>66.0</version>
+</Package>

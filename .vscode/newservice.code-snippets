@@ -1,0 +1,15 @@
+{
+	"New Service": {
+		"scope": "apex",
+		"prefix": "newservice",
+		"body": [
+			"public inherited sharing class ${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/} {",
+			"",
+			"\tpublic static final ${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/} INSTANCE = (${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/})fflibe_APP.SERVICE.newInstance(${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/}.class);",
+			"",
+			"\t$0",
+			"",
+			"}"
+		]
+	}
+}

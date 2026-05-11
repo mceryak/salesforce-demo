@@ -1,0 +1,11 @@
+{
+	"Mock Service": {
+		"scope": "apex",
+		"prefix": "mockservice",
+		"body": [
+			"${1:service_class} mock${1:service_class} = (${1:service_class})mocks.mock(${1:service_class}.class);",
+			"fflibe_App.SERVICE.setMock(I${1:service_class}.class, mock${1:service_class});",
+			"$0"
+		]
+	}
+}

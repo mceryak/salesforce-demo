@@ -1,0 +1,38 @@
+{
+    "New Domain": {
+        "scope": "apex",
+		"prefix": "newdomain",
+		"body" : [
+			"public inherited sharing class ${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/} extends fflib_SObjectDomain {",
+			"",
+			"\t/*********************",
+			"\t* DEFAULT DOMAIN CODE",
+			"\t*********************/",
+			"",
+			"\t${1:sobject}[] castedRecords { get { return (${1:sobject}[])Records; } }",
+            "",
+			"\tpublic static ${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/} newInstance(${1:sobject}[] records) {",
+			"\t\treturn (${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/})fflibe_APP.DOMAIN.newInstance(records);",
+			"\t}",
+			"",
+			"\tpublic ${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/}(${1:sobject}[] records) {",
+			"\t\tsuper(records);",
+			"\t}",
+			"",
+			"\tpublic class Constructor implements fflib_IDomainConstructor {",
+			"\t\tpublic fflib_SObjects construct(List<Object> objectList) {",
+			"\t\t\treturn new ${TM_FILENAME/(.*)\\..+$/${1:/capitalize}/}((List<SObject>) objectList);",
+			"\t\t}",
+			"\t}",
+            "",
+            "",
+            "\t/*********************",
+			"\t* DOMAIN METHODS",
+			"\t*********************/",
+            "",
+			"\t$0",
+			"",
+			"}"
+		]
+    }
+}

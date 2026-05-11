@@ -1,0 +1,11 @@
+{
+	"Start/Stop Test": {
+		"scope": "apex",
+		"prefix": "starttest",
+		"body": [
+			"Test.startTest();",
+			"$0",
+			"Test.stopTest();"
+		]
+	}
+}

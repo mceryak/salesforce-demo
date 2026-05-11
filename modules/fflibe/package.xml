@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>fflibe_APP</members>
+		<members>fflibe_Application</members>
+		<members>fflibe_ApplicationTest</members>
+		<members>fflibe_MetadataHelper</members>
+		<members>fflibe_TESTDomain1</members>
+		<members>fflibe_TESTDomain2</members>
+		<members>fflibe_TESTHandler</members>
+		<members>fflibe_TESTSelector1</members>
+		<members>fflibe_TESTSelector2</members>
+		<members>fflibe_TESTService</members>
+		<members>fflibe_TriggerHandler</members>
+		<members>fflibe_TriggerHandlerTest</members>
+		<members>fflibe_TriggerSObjectDomain</members>
+		<members>fflibe_TriggerSObjectDomainTest</members>
+		<members>fflibe_UnitOfWork</members>
+		<members>fflibe_UnitOfWorkTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>fflibe_DomainMapping__mdt</members>
+		<members>fflibe_SelectorMapping__mdt</members>
+		<members>fflibe_TriggerSwitches__c</members>
+		<name>CustomObject</name>
+	</types>
+	<version>66.0</version>
+</Package>

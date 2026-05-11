@@ -1,0 +1,2 @@
+
+lgr_LogDeletionJobScheduler.scheduleEveryMonth();

@@ -1,0 +1,11 @@
+{
+	"Mock Selector": {
+		"scope": "apex",
+		"prefix": "mockselector",
+		"body": [
+			"${1:selector_class} mock${1:selector_class} = (${1:selector_class})mocks.mock(${1:selector_class}.class);",
+			"fflibe_App.SELECTOR.setMock(${2:objectApiName}.sObjectType, mock${1:selector_class});",
+			"$0"
+		]
+	}
+}

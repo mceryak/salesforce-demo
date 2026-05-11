@@ -1,0 +1,11 @@
+{
+	"Mock Stubbing": {
+		"scope": "apex",
+		"prefix": "stub",
+		"body": [
+			"mocks.startStubbing();",
+			"$0",
+			"mocks.stopStubbing();"
+		]
+	}
+}

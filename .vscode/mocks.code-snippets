@@ -1,0 +1,10 @@
+{
+	"New ApexMocks": {
+		"scope": "apex",
+		"prefix": "mocks",
+		"body": [
+			"fflib_ApexMocks mocks = new fflib_ApexMocks();",
+			"$0"
+		]
+	}
+}
