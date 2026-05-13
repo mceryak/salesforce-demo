@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>api_log_event_handler</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>api_LogLevels__c</members>
+		<members>api_LogEvent__e</members>
+		<members>api_Log__c</members>
+		<members>api_RequestHandlers__mdt</members>
+		<name>CustomObject</name>
+	</types>
+  <types>
+		<members>api_log_event_manager</members>
+		<name>PermissionSet</name>
+	</types>
+	<version>66.0</version>
+</Package>

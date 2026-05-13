@@ -2,7 +2,7 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": false
     },
     {
       "path": "modules/fflib",
@@ -15,6 +15,14 @@
     {
       "path": "modules/lgr",
       "default": false
+    },
+    {
+      "path": "modules/lgr-dash",
+      "default": false
+    },
+    {
+      "path": "modules/api",
+      "default": true
     }
   ],
   "name": "Salesforce",
